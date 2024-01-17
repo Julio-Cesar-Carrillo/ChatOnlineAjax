@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Exo+2:wght@500&family=Rubik&display=swap');
+
+* {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../fondo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.formulario {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+/* formulario registro */
+
+.formulario2 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label1 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.buttonF,
+.buttonG {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttonF {
+    background-color: #4caf50;
+    /* Green */
+}
+
+.buttonG {
+    background-color: #008CBA;
+    /* Blue */
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttonF:hover,
+.buttonG:hover {
+    opacity: 0.8;
+}
+
+.labelIn {
+    display: block;
+    margin-top: 10px;
+}
+
+.labelIn::after {
+    content: "* Campos obligatorios";
+    color: #FF0000;
+    font-size: 12px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.label1 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.buttonF {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttonG {
+    width: 93%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttonF {
+    background-color: #4caf50;
+}
+
+.buttonG {
+    background-color: #008CBA;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttonF:hover,
+.buttonG:hover {
+    opacity: 0.8;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+.perfiles {
+    background-image: url(../fondo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.text {
+    border-radius: 5px;
+}
+
+a.salir {
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a.salir:hover {
+    background-color: #c0392b;
+}
+
+.usuario {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.mensajes {
+    width: 40%;
+    float: left;
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.chat_rep {
+    text-align: left;
+}
+
+.chat_emi {
+    text-align: right;
+}
+
+.columna1 {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 2%;
+}
+
+.columna2 {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.columna3 {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+}
+
+/* Estilos generales para las tablas */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las celdas de encabezado */
+
+th {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+/* Estilos para las celdas de datos */
+
+td {
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+/* Estilos para resaltar un botón en una celda */
+
+td button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Estilos buscar amigo */
+input[type="text"] {
+    color: black;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.buscar {
+    border-radius: 2px;
+    border: black 1px solid;
+    background-color: blue;
+    height: 38px;
+}
+
+@media (max-width: 1020px) {
+    .columna1 {
+        float: left;
+        width: 33%;
+    }
+
+    .columna2 {
+        float: left;
+        width: 50%;
+    }
+
+    .columna3 {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media (max-width: 780px) {
+    .columna1 {
+        float: left;
+        width: 100%;
+    }
+
+    .columna2 {
+        float: left;
+        width: 100%;
+    }
+
+    .columna3 {
+        float: left;
+        width: 100%;
+    }
+}
